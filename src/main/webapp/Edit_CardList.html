@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>入力フォーム</title>
+</head>
+<body>
+	<h2>カードリストを更新します</h2>
+	
+	<form action="card-list-servlet" method="post">
+		CARD ID   <input type="text" name="id"><br/>
+		CARD NAME <input type="text" name="name"><br/>
+		CARD TYPE <input type="text" name="type"><br/>
+		CARD HP   <input type="text" name="hp"><br/>
+		SKILL 1   <input type="text" name="skill1"><br/>
+		SKILL 2   <input type="text" name="skill2"><br/>
+		<input type="submit" name="btn" value="登録">
+		<input type="submit" name="btn" value="更新">
+		<input type="submit" name="btn" value="削除">
+	</form>
+	
+	<form action="Menu.html" method="get">
+	    	<input type="submit" value="BACK">
+	</form>
+</body>
+</html>
